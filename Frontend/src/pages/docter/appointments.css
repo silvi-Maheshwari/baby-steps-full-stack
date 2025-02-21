@@ -1,0 +1,63 @@
+.appointments-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #237464;;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.appointments-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-doctor-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.add-doctor-btn:hover {
+    background-color: #2980b9;
+}
+
+.loading, .error, .no-appointments {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+.appointments-list {
+    list-style: none;
+    padding: 0;
+}
+
+.appointment-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.appointment-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.appointment-card h3 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.appointment-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
