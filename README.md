@@ -1,6 +1,6 @@
 # Appointment Management System
 ## Live Demo
-🔗 [View the Project](https://courageous-pasca-65e860.netlify.app/)
+🔗 [View the Project](https://elegant-tapioca-d6ee71.netlify.app/)
 ## Description
 This is a simple appointment management system built using React and Node.js. It allows users to create, update, and delete appointments with details such as:
 - Patient name
